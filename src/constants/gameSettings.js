@@ -1,5 +1,17 @@
-// Game settings and configuration
-// - Initial balance
-// - Min/max bet amounts
-// - Dealer hit threshold (17)
-// - Blackjack payout ratio
+const INITIAL_BALANCE = 1000;
+const MIN_BET = 10;
+const DEALER_HIT_THRESHOLD = 17;
+const BLACKJACK_PAYOUT = 1.5;
+const REGULAR_WIN_PAYOUT = 1.0;
+const INSURANCE_PAYOUT = 2.0;
+const DECK_COUNT = 1;
+
+export {
+  INITIAL_BALANCE,
+  MIN_BET,
+  DEALER_HIT_THRESHOLD,
+  BLACKJACK_PAYOUT,
+  REGULAR_WIN_PAYOUT,
+  INSURANCE_PAYOUT,
+  DECK_COUNT
+};
