@@ -15,4 +15,3 @@ export {
   INSURANCE_PAYOUT,
   DECK_COUNT
 };
-// maxbet i ./utils/game/betting.js
